@@ -1,9 +1,11 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2017
+	//    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
 package random;
 
 import java.awt.Dimension;
+import java.util.Random;
+
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -49,17 +51,18 @@ public class DiceRoll {
 
 			// 1. Make randomChoice equal to a random number between 1 and 6
 			int randomChoice = 0;
-
+			Random egg = new Random();
+			randomChoice = egg.nextInt((6 - 1) +1) + 1;
 			// 2. Fix the code below so that it displays the correct image
-			if (randomChoice == 0) {
+			if (randomChoice == 1) {
 				label.setIcon(oneImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 2) {
 				label.setIcon(twoImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 3) {
 				label.setIcon(threeImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 4) {
 				label.setIcon(fourImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 5) {
 				label.setIcon(fiveImg);
 			} else {
 				label.setIcon(sixImg);

@@ -15,13 +15,30 @@ public class Validation {
 		int randomNumber = new Random().nextInt(5);
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
-		
+		///0,1,3,2,3,1,4,4,2,3
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
+		Random Egg = new Random();
+		randomNumber = Egg.nextInt(4);}
+	    private String convertSelection(int s){
+	        if (s==1)
+	             return "ROCK";
+	        else if (s==2)
+	             return "PAPER";
+	        else if (s==3)
+	             return "SCISSORS";
+	        else if (s==4)
+	             return "PAPER";
+	        else
+	             return "";
+	         }
+	     
+	     
+
 
 		// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
 	}
-}
+
