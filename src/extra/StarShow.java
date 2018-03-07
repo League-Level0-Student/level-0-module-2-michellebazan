@@ -35,9 +35,9 @@ for(int i = 0; i < 30; i++) {
 			// 9. Call the drawStar() method with your star size variable
 	drawStar(starSize);
 			// 14. Increase the X position by star size. See Figure 2.
-	robot.setX(starSize);
+	x = x + starSize
 			// 15. decrease the Y position by star size. See Figure 3.
-	robot.setY(starSize);
+	y = y - starSize
 			// 16. Increase the star size by 20
 	
 			// 17. Turn the robot 12 degrees
