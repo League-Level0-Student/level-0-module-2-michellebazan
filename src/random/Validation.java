@@ -21,18 +21,6 @@ public class Validation {
 		// 3. Use each value of randomNumber to give the user a random compliment.
 		Random Egg = new Random();
 		randomNumber = Egg.nextInt(4);}
-	    private String convertSelection(int s){
-	        if (s==1)
-	             return "ROCK";
-	        else if (s==2)
-	             return "PAPER";
-	        else if (s==3)
-	             return "SCISSORS";
-	        else if (s==4)
-	             return "PAPER";
-	        else
-	             return "";
-	         }
 	     
 	     
 
