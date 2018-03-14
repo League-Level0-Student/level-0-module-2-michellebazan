@@ -13,7 +13,7 @@ public class StarShow {
 	
 
 	void makeStars() {
-		robot.setSpeed(10);
+		robot.setSpeed(1000);
 		
 		///drawStar(150);	//5. delete this line. you will draw the star again in step 8.
 		// 13. Set the speed to 8
@@ -35,9 +35,9 @@ for(int i = 0; i < 30; i++) {
 			// 9. Call the drawStar() method with your star size variable
 	drawStar(starSize);
 			// 14. Increase the X position by star size. See Figure 2.
-	x = x + starSize
+x = x + starSize;
 			// 15. decrease the Y position by star size. See Figure 3.
-	y = y - starSize
+y = y - starSize;
 			// 16. Increase the star size by 20
 	
 			// 17. Turn the robot 12 degrees
