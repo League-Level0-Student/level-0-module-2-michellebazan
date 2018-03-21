@@ -39,10 +39,11 @@ x = x + starSize;
 			// 15. decrease the Y position by star size. See Figure 3.
 y = y - starSize;
 			// 16. Increase the star size by 20
-	
+	starSize = starSize + 20;
 			// 17. Turn the robot 12 degrees
-	
+	robot.turn(12);
 			// 18. Make each star a different random color like in Figure 4. 
+robot.setRandomPenColor();
 }
 	}
 
